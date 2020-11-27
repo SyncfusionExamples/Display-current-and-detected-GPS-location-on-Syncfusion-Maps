@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SfMaps_Geolocation.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <Button Text="Display Current Location" Clicked="Button_Clicked" />
+        <BoxView BackgroundColor="Black" VerticalOptions="Center" Margin="0,20,0,0" HeightRequest="2" />
+        <Label Text="Microsoft Building 25 Redmond WA USA" Margin="0,20,0,0" />
+        <Button Text="Detect Location" Clicked="Button_Clicked_1" />
+    </StackLayout>
+
+</ContentPage>
